@@ -1,2 +1,1 @@
-HI There is the main branch text file.
-Doing another commit to see logs
+The Feature branch has done some changes.

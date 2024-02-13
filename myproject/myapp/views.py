@@ -49,7 +49,7 @@ def login_user(request):
 
 class UserDetailApi(APIView):
     authentication_classes = [TokenAuthentication]
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, *args, **kwargs):
         user = CustomUser.objects.all()
